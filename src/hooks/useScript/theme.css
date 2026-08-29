@@ -1,0 +1,24 @@
+#Theme{
+    font-size: 5.5em;
+    font-family: "Midstar", "Comic Sans MS",Helvetica;
+    padding-top: 20px;
+}
+
+#button-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.buttonT{
+    border: none;
+    background-color: rgb(33, 158, 188);
+    font-family: "Comic Sans MS",Helvetica;
+    font-size: 1em;
+    align-items: center;
+    margin-left: 15%;
+    margin-top: 120px;   
+    cursor: pointer;
+    padding-right: 20px;
+}

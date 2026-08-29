@@ -1,0 +1,315 @@
+#game-body{
+    background-color: rgb(142, 202, 230);
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.carte{
+    display: block;
+    width: 100px;
+}
+
+#memoryC{
+    display: flex;
+    flex-direction: row;
+}
+
+#player-bar{
+    background-color: rgb(255, 183, 3);
+    height: 100vh;
+    width: 27vw;
+}
+
+#joueur-actuel{
+    color: white;
+    text-align: left;
+    font-family: 'Monocraft', "Comic Sans MS",Helvetica;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-top: 4rem;
+}
+
+#joueur{
+    color: white;
+    text-align: left;
+    font-family: 'Monocraft', "Comic Sans MS",Helvetica;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-top: 15rem;
+}
+
+#score-bar{
+    background-color: rgb(251, 133, 0);
+    height: 50vh;
+    width: 24vw;
+    margin-left: 1rem;
+}
+
+#score{
+    color: white;
+    text-align: left;
+    font-family: 'Monocraft', "Comic Sans MS",Helvetica;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    padding-left: 1rem;
+    padding-top: 2rem;
+}
+
+#score2{
+    color: white;
+    text-align: left;
+    font-family: 'Monocraft', "Comic Sans MS",Helvetica;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    padding-left: 1rem;
+    margin-top: -2em ;
+}
+
+#config-bar{
+    display: block;
+    margin-top: 80px;
+}
+
+#config-bar-solo{
+    display: block;
+    margin-top: 12rem;
+}
+
+#quit-button{
+    position: absolute;
+    color: white;
+    text-align: left;
+    font-family: 'Monocraft', "Comic Sans MS",Helvetica;
+    inset-inline-start: 20px;
+    font-size: 1.5rem;
+    inset-block-start: 44vw;
+    background-color: rgba(251, 133, 0);
+}
+
+#micro-button{
+    background-color: transparent;
+    border: none;
+}
+
+#micro{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    inset-block-start: 42vw;
+    inset-inline-start: 14rem;
+}
+
+.cartesJeu{
+    display : flex;
+    flex-direction: column;
+    padding-left: 70px;
+    padding-top: 15px;
+}
+
+.rangée{
+    display : flex;
+    flex-direction: row;
+    gap: 53px;
+    padding-left: 50px;
+}
+
+.rangée12{
+    display : flex;
+    flex-direction: row;
+    gap: 103px;
+}
+
+.rangée20{
+    display : flex;
+    flex-direction: row;
+    gap: 78px;
+    padding-left:15px;
+}
+
+.carte30{
+    width:81px;
+    background-color: transparent;
+    border: none;
+}
+
+.carte12{
+    width:135px;
+    background-color: transparent;
+    border: none;
+    
+}
+
+.carte20{
+    width:100px;
+    background-color: transparent;
+    border: none;
+}
+
+.numeros{
+    display: flex;
+    flex-direction: row;
+    position:absolute;
+    margin-top: -20px;
+    gap : 125px;
+    padding-left: 5px;
+}
+
+.numeros20{
+    display: flex;
+    flex-direction: row;
+    position:absolute;
+    margin-top: -25px;
+    gap : 90px;
+}
+
+.numeros30{
+    display: flex;
+    flex-direction: row;
+    position:absolute;
+    margin-top: -30px;
+    gap : 65px;
+}
+
+.numero{
+    font-size: 1.3em;
+    font-family: "Monocraft", "Comic Sans MS",Helvetica;
+    margin-left: 100px; 
+}
+
+.numeroD{
+    font-size: 1.3em;
+    font-family: "Monocraft", "Comic Sans MS",Helvetica;
+    margin-left: 87px; 
+}
+
+.numero20{
+    font-size: 1.3em;
+    font-family: "Monocraft", "Comic Sans MS",Helvetica;
+    margin-left: 75px; 
+}
+
+.numero20D{
+    font-size: 1.3em;
+    font-family: "Monocraft", "Comic Sans MS",Helvetica;
+    margin-left: 62px; 
+}
+
+.numero30{
+    font-size: 1em;
+    font-family: "Monocraft","Comic Sans MS",Helvetica;
+    margin-left: 60px; 
+}
+
+.numero30D{
+    font-size: 1em;
+    font-family: "Monocraft", "Comic Sans MS",Helvetica;
+    margin-left: 50px; 
+}
+
+#End{
+    background-color: rgb(255, 183, 3);
+    border: solid;
+    border-color: rgb(251, 133, 0);
+    border-radius: 30px;
+    border-width: 0.5em;
+    height: 88vh;
+    width: 90vw;
+    margin-top: 30px;
+    margin-left: 55px;
+}
+
+#texte{
+    padding-top: 15px;
+    font-size: 3em;
+    font-family: "Monocraft", "Comic Sans MS",Helvetica;
+}
+
+#rejouer-single{
+    color: white;
+    text-align: center;
+    font-family: 'Monocraft', "Comic Sans MS",Helvetica;
+    font-size: 5rem;
+    border-radius: 30px;
+    margin-left: -160px;
+    padding-bottom: 15px;
+    background-color: rgb(9, 46, 70);
+}
+
+#rejouer{
+    color: white;
+    text-align: center;
+    font-family: 'Monocraft', "Comic Sans MS",Helvetica;
+    background-color: rgb(9, 46, 70);
+    margin-right: 10rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+#quit-button-end{
+    color: white;
+    text-align: left;
+    font-family: 'Monocraft', "Comic Sans MS",Helvetica;
+    margin-right: 10rem;
+    font-size: 1.5rem;
+    padding-top: -5px;
+    background-color: rgba(251, 133, 0);
+}
+
+#button-choice-single{
+    display : grid;
+    width: 300px;
+    padding-left: 79vh;
+    padding-top: 15vh;
+    gap: 100px;
+}
+
+#button-choice{
+    display: flex;
+    flex-direction: row;
+    padding-top: 3vw;
+    padding-left: 6vw;
+    gap: 600px;
+}
+
+#podium{
+    background-color: rgb(251, 133, 0);
+    height: 25vw;
+    width: 40vw;
+    margin-left: 50vh ;
+}
+
+#Premier{
+    color: white;
+    text-align: center;
+    font-family: 'Monocraft', "Comic Sans MS",Helvetica;
+    font-size: 2.5em;
+    padding-top: 80px;
+
+}
+#next{
+    color: white;
+    text-align: center;
+    font-family: 'Monocraft', "Comic Sans MS",Helvetica;
+    font-size: 1.5em;
+    padding-top: 20px;
+}
+
+#next2{
+    color: white;
+    text-align: center;
+    font-family: 'Monocraft', "Comic Sans MS",Helvetica;
+    font-size: 1.5em;
+    margin-top: -20px;
+}
+
+#null{
+    display: flex;
+    flex-direction: row;
+}
+
+#error-message{
+    margin-top: 7px; 
+    font-size: 1.3em;
+    font-family: 'Monocraft', "Comic Sans MS",Helvetica;
+    color: rgb(251, 0, 0);
+}

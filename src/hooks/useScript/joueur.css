@@ -1,0 +1,55 @@
+#Joueurs{
+    font-size: 5em;
+    font-family: "Midstar", "Comic Sans MS",Helvetica;
+    padding-top: 20px;
+}
+
+#game-container{
+    background-color: rgb(33, 158, 188);
+    background-image: url("/bg.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+#upper-bar-container{
+    background-color: rgb(255, 183, 3);
+    height: 120px;
+    padding: 10px;
+    display: block;
+    align-items: center;
+}
+
+#bande-bg-img{
+    width: 102%;
+    margin-top: 5px;
+    margin-left: -1%;
+}
+
+#button-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.button{
+    border: none;
+    background-color: rgb(33, 158, 188);
+    font-family: "Comic Sans MS",Helvetica;
+    font-size: 1em;
+    align-items: center;
+    margin-left: 9%;
+    margin-top: 120px;   
+    cursor: pointer;
+    padding-right: 20px;
+}
+
+#button-prev{
+    border-width: 2px;
+    font-family: "Comic Sans MS",Helvetica;
+    font-size: 2em;
+    cursor: pointer;
+    background-color: rgb(251, 133, 0);
+    margin-top: 7vh;
+    margin-right: 71vw;
+}
